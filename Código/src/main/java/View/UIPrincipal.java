@@ -4,14 +4,6 @@
  */
 package View;
 
-import java.util.logging.Logger;
-
-import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
-
-import com.formdev.flatlaf.FlatDarkLaf;
-import com.formdev.flatlaf.FlatIntelliJLaf;
-
 import Controller.BemPatrimonialController;
 import Controller.DevolucaoController;
 import Controller.EmprestimoController;
@@ -245,12 +237,6 @@ public class UIPrincipal extends javax.swing.JFrame {
                     break;
                 }
             }
-            try {
-                javax.swing.UIManager.setLookAndFeel(new FlatDarkLaf());
-
-    } catch (UnsupportedLookAndFeelException ex) {
-        
-    }
         } catch (ClassNotFoundException ex) {
             java.util.logging.Logger.getLogger(UIPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {

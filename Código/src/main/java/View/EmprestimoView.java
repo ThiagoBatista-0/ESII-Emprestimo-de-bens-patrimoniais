@@ -33,7 +33,7 @@ public class EmprestimoView extends JFrame {
     private MultaController multaController;
 
     public EmprestimoView() {
-        // Inicializa os objetos23
+        // Inicializa os objetos
         Emprestimo emprestimo = new Emprestimo();
         BemPatrimonial bem = new BemPatrimonial("Laptop", true);
         Usuario usuario = new Usuario("João", "teste", "Comum");
